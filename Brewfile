@@ -20,6 +20,9 @@ brew 'zlib' # Needed for Memcached
 # Development
 brew 'php'
 brew 'composer'
+brew 'imagemagick'
+brew 'libmemcached'
+brew 'memcached'
 brew 'mysql'
 brew 'nginx'
 brew 'node'
@@ -31,16 +34,17 @@ cask 'alfred'
 cask 'discord'
 cask 'docker'
 cask 'firefox'
+cask 'figma'
 cask 'github'
 cask 'google-chrome'
 cask 'gpg-suite'
+cask 'imageoptim'
 cask 'phpstorm'
 cask 'slack'
 cask 'tableplus'
-cask 'vagrant'
-cask 'virtualbox' # Might need to allow access in Security settings
-cask 'virtualbox-extension-pack'
+cask 'tinkerwell'
 cask 'visual-studio-code'
+cask 'whatsapp'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -62,4 +66,3 @@ cask 'font-source-serif-pro'
 # Mac App Store
 mas 'Giphy Capture', id: 668208984
 mas 'Spark', id: 1176895641
-mas 'WhatsApp', id: 1147396723
