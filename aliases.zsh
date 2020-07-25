@@ -18,17 +18,6 @@ alias cfresh="rm -rf vendor/ composer.lock && composer i"
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 alias watch="npm run watch"
 
-# Vagrant
-alias v="vagrant global-status"
-alias vup="vagrant up"
-alias vhalt="vagrant halt"
-alias vssh="vagrant ssh"
-alias vreload="vagrant reload"
-alias vrebuild="vagrant destroy --force && vagrant up"
-
-# Homestead
-alias hs="Homestead"
-
 # Docker
 alias dup="docker-compose up -d"
 alias ddown="docker-compose down"
@@ -43,4 +32,6 @@ alias gb="git branch"
 alias gc="git checkout"
 alias gd="git diff"
 alias glog="git log --oneline --decorate --color"
-alias nah="git clean -df && git reset --hard"
+alias gnah="git clean -df && git reset --hard"
+alias gfresh='git branch | grep -v -e "master" -e "develop" | xargs git branch $
+alias gu='git branch --unset-upstream'
