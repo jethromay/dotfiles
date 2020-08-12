@@ -10,6 +10,7 @@ alias lara="sites && cd laravel/"
 
 # Laravel
 alias art="php artisan"
+alias tinker="php artisan tinker"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
