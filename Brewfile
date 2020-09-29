@@ -40,7 +40,6 @@ cask 'discord'
 cask 'docker'
 cask 'figma'
 cask 'firefox'
-cask 'github'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
 cask 'gpg-suite'
@@ -70,7 +69,6 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Byword', id: 420212497
 mas 'Giphy Capture', id: 668208984
 mas 'Numbers', id: 409203825
 mas 'Spark', id: 1176895641
