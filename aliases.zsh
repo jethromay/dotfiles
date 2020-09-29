@@ -33,5 +33,5 @@ alias gc="git checkout"
 alias gd="git diff"
 alias glog="git log --oneline --decorate --color"
 alias gnah="git clean -df && git reset --hard"
-alias gfresh='git branch | grep -v -e "master" -e "develop" | xargs git branch $
+alias gfresh='git branch | grep -v -e "master" -e "develop" | xargs git branch -D'
 alias gu='git branch --unset-upstream'
